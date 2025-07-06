@@ -1,13 +1,15 @@
-package decoratorPattern;
+package decoratorPattern.decorator;
 
-class ExtraCheese extends ToppingDecorator {
+import decoratorPattern.base.BasePizza;
+
+public class ExtraCheese extends ToppingDecorator {
    
     BasePizza basePizza;
     public ExtraCheese(BasePizza pizza) {
         this.basePizza = pizza;
     }
 
-    int cost() {
+    public int cost() {
         return basePizza.cost() + 200;
     }
 }

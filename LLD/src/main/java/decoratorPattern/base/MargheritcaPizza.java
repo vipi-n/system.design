@@ -1,4 +1,4 @@
-package decoratorPattern;
+package decoratorPattern.base;
 
 class MargheritcaPizza extends BasePizza {
     
