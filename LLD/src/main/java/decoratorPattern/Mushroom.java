@@ -1,7 +1,9 @@
-abstract class Mashroom extends ToppingDecorator {
+package decoratorPattern;
+
+class Mushroom extends ToppingDecorator {
 
     BasePizza basePizza;
-    public Mashroom(BasePizza pizza) {
+    public Mushroom(BasePizza pizza) {
         this.basePizza = pizza;
     }
 
