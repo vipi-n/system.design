@@ -1,7 +1,9 @@
+package decoratorPattern;
+
 class ExtraCheese extends ToppingDecorator {
    
     BasePizza basePizza;
-    public Mashroom(BasePizza pizza) {
+    public ExtraCheese(BasePizza pizza) {
         this.basePizza = pizza;
     }
 
